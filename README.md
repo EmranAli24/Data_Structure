@@ -14,7 +14,8 @@ The repository includes solutions for problems covering:
 - Arrays
 - Strings
 - Sorting and Searching Algorithms
-- Recursion 
+- Recursion
+- stack
 
 
 ## How to Use
