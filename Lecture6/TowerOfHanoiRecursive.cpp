@@ -49,7 +49,7 @@ int TOH(int N, char from_rod, char to_rod, char aux_rod)
 
 int main()
 {
-    int N = 3;
+    int N = 2;
 
     int count = TOH(N, 'A', 'B', 'C');
     cout << "Total moves: " << count << endl;

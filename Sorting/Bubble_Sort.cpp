@@ -5,7 +5,7 @@
  sorts the elements in DATA.
  1. Repeat Steps 2 and 3 for K = 1 to N – 1.
  2. Set PTR := 1. [Initializes pass pointer PTR.]
- 3. Repeat while PTR ≤ N – K: [Executes pass.]
+ 3. Repeat while PTR ≤ N – K [Executes pass.]
  (a) If DATA[PTR] > DATA[PTR + 1], then:
  Interchange DATA[PTR] and DATA[PTR + 1].
  [End of If structure.]
