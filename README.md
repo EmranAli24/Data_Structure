@@ -46,7 +46,7 @@ The repository includes solutions for problems covering:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/EmranAli24/Data_Structure.git
 2. Navigate to the desired topic or lecture folder.
 
 3. Run the code using the appropriate compiler or interpreter.
