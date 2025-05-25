@@ -1,6 +1,4 @@
-///  ***** Dijkstra algorithm finds the shortest path between two points  ******
-
-
+// slide 9, page 72 ;
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -58,18 +56,20 @@ public:
 int main()
 {
     // Driver code.
-    int V = 3, E = 3, S = 2;
+    int V = 6, E = 8, S = 0;
     vector<vector<int>> adj[V];
    // vector<vector<int>> edges;
-    vector<int> v1{1, 1}, v2{2, 6}, v3{2, 3}, v4{0, 1}, v5{1, 3}, v6{0, 6}; // V_i (vertex,weight)
+    vector<int> v1{1, 10}, v2{2, 15}, v3{3, 12}, v4{5, 15}, v5{4, 10},v6{4,2}, v7{5, 1},v8{4,5}; // V_i (vertex,weight)
     int i = 0;
     adj[0].push_back(v1);
     adj[0].push_back(v2);
     adj[1].push_back(v3);
     adj[1].push_back(v4);
     adj[2].push_back(v5);
-    adj[2].push_back(v6);
-
+    adj[3].push_back(v6);
+    adj[3].push_back(v7);
+    adj[5].push_back(v8);
+      
     Solution obj;
     vector<int> res = obj.dijkstra(V, adj, S);
 
